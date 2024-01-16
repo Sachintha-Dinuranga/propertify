@@ -1,0 +1,315 @@
+
+#footer{
+    min-height: 200px!important;
+    background-color: #404040;
+    color: white;
+    margin-top: 30vh;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.copyright{
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/backgrund.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead .intro-text {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 15px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 45px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 300px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
+.signingo{
+    padding-left: 900px;
+    padding-top: 25px;
+}
+.signup .row{
+    margin-top: 10px!important;
+    border-bottom: thin solid #404040!important;
+    padding: 10px;
+}
+.signup>h1{
+    text-align: center;
+    color: #404040;
+}
+.signup label{
+    color: #404040;
+}
+
+.asksignup .row1{
+    margin-top: 10px!important;
+    padding: 10px;
+    text-align: center;
+}
+.asksignup>h1{
+    text-align: center;
+    color: #404040;
+}
+
+#button{
+  background-color: #555555;
+  border: 2px solid #555555;
+  color: white;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#button:hover{
+    background-color: white;
+    color: #555555;
+    border: 2px solid #555555;
+    font-size: 16px;
+}
+#login{
+    background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  color: white;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#login:hover{
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    font-size: 16px;
+}
+
+.sidebar-col{
+    background-color: #404040;
+    color: white;
+    font-size: 20px;
+    padding: 0px!important;
+    padding-top: 10px;
+    min-height: 100vh;
+}
+.sidebar-col a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    transition: 0.5s;
+    padding-top: 5px;
+}
+.sidebar-col a:hover{
+    background-color: #666666;
+    color: white;
+}
+.o{
+    color: orange;
+    
+}
+.search{
+    background-color: #555555;
+  border: 2px solid #555555;
+  color: white;
+  padding: 10px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.search:hover{
+    background-color: white;
+    color: #555555;
+    border: 2px solid #555555;
+    font-size: 16px;
+}
+.ptype{
+    padding: 10px 150px;
+    border: 0.5px solid #404040;
+    border-radius: 15px;
+}
+.psubtype{
+    padding: 10px 60px;
+    border: 0.5px solid #404040;
+    border-radius: 15px;
+}
+.srproperty{
+    padding: 10px 60px;
+    border: 0.5px solid #404040;
+    border-radius: 15px;
+}
+.cityname{
+    padding: 10px 60px;
+    border: 0.5px solid #404040;
+    border-radius: 15px;
+}
+
+/*----------Display property---------*/
+
+.property-section{
+    padding: 50px;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}
+h1{
+    padding: 20px;
+}
+.property_wrapper{
+    height: 220%;
+    width: 110%;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    border-radius: 5px;
+    border: thin solid gray;
+    padding: 5px;
+}
+.action_wrapper{
+    bottom: 5px;
+    position: absolute;
+    border: thin solid grey;
+    align-content: center;
+}
+.userbutton{
+    background-color: #29a329;
+    color: white;
+  border: 2px solid #29a329;
+  border-radius: 5px;
+  padding: 7px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.userbutton:hover{
+    background-color: white;
+    color: #29a329;
+    border: 2px solid #29a329;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}
+.pimg{
+    width:100%;
+    height: 120%;
+}
+.main-col{
+    margin-bottom:  50px;
+}
+
+/*--------banner section-------*/
+.banner-section .row .col-sm-12{
+    height: 60vh;
+}
+.banner-section{
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}
+.banner-section .row .col-sm-12 img{
+    width: 100%;
+    height: 100%;
+}
+
+/*-----contact------*/
+.contactbtn{
+  background-color: #555555;
+  border: 2px solid #555555;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.contactbtn:hover{
+    background-color: white;
+    color: #555555;
+    padding: 10px 10px;
+    border: 2px solid #555555;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.intention{
+    padding: 10px 10px;
+}
+.tybtn{
+  background-color: #555555;
+  border: 2px solid #555555;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.tybtn:hover{
+    background-color: white;
+    color: #555555;
+    padding: 10px 10px;
+    border: 2px solid #555555;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.upload-box{
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    outline: none;
+}
+.upbtn{
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+}

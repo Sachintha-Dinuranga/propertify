@@ -1,0 +1,45 @@
+#footer{
+    min-height: 200px!important;
+    background-color: #404040;
+    margin-top: 70vh;
+    color: white;
+    text-align: center;
+}
+.sidebar-col{
+    background-color: #404040;
+    color: white;
+    font-size: 20px;
+    padding: 0px!important;
+    padding-top: 10px;
+    min-height: 100vh;
+}
+.sidebar-col a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    transition: 0.5s;
+    padding-top: 5px;
+}
+.sidebar-col a:hover{
+    background-color: #666666;
+    color: white;
+}
+.glyphicon{
+    font-size: 20px;
+}
+#addadmin{
+    background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  padding: 7px 20px;
+  color: white;
+  font-size: 16px;
+}
+#addadmin:hover{
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    font-size: 16px;
+}

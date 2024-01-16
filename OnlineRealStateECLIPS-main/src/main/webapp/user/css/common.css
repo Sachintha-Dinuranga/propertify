@@ -1,0 +1,166 @@
+#footer{
+    min-height: 200px!important;
+    background-color: #404040;
+    margin-top: 70vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.sidebar-col{
+    background-color: #404040;
+    color: white;
+    font-size: 20px;
+    padding: 0px!important;
+    padding-top: 10px;
+    min-height: 100vh;
+}
+.sidebar-col a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    transition: 0.5s;
+    padding-top: 5px;
+}
+.sidebar-col a:hover{
+    background-color: #666666;
+    color: white;
+}
+.o{
+    color: orange;
+    
+}
+.search{
+    background-color: #555555;
+  border: 2px solid #555555;
+  color: white;
+  padding: 10px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.search:hover{
+    background-color: white;
+    color: #555555;
+    border: 2px solid #555555;
+    font-size: 16px;
+}
+.ptype{
+    padding: 10px 20px;
+}
+.psubtype{
+    padding: 10px 20px;
+}
+.srproperty{
+    padding: 10px 20px;
+}
+.cityname{
+    padding: 10px 20px;
+}
+/*----------Display property---------*/
+
+.property-section{
+    padding: 50px;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}
+h1{
+    padding: 20px;
+}
+.property_wrapper{
+    height: 220%;
+    width: 110%;
+    text-align: center;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    border-radius: 5px;
+    border: thin solid gray;
+    padding: 5px;
+}
+.action_wrapper{
+    bottom: 5px;
+    position: absolute;
+    border: thin solid grey;
+    align-content: center;
+}
+.userbutton{
+    background-color: #29a329;
+    color: white;
+  border: 2px solid #29a329;
+  border-radius: 5px;
+  padding: 7px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.userbutton:hover{
+    background-color: white;
+    color: #29a329;
+    border: 2px solid #29a329;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}
+.pimg{
+    width:100%;
+    height: 120%;
+}
+.main-col{
+    marign-bottom:50px;
+}
+
+/*--------banner section-------*/
+.banner-section .row .col-sm-12{
+    height: 60vh;
+}
+.banner-section{
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}
+.banner-section .row .col-sm-12 img{
+    width: 100%;
+    height: 100%;
+}
+
+/*-----contact------*/
+.contactbtn{
+  background-color: #555555;
+  border: 2px solid #555555;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.contactbtn:hover{
+    background-color: white;
+    color: #555555;
+    padding: 10px 10px;
+    border: 2px solid #555555;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.intention{
+    padding: 10px 10px;
+}
+.tybtn{
+  background-color: #555555;
+  border: 2px solid #555555;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.tybtn:hover{
+    background-color: white;
+    color: #555555;
+    padding: 10px 10px;
+    border: 2px solid #555555;
+    font-size: 16px;
+    border-radius: 5px;
+}

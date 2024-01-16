@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="OnlineRealStateECLIPS-main/src/main/java"/>
+	<classpathentry kind="lib" path="OnlineRealStateECLIPS-main/libs/commons-fileupload-1.3.jar"/>
+	<classpathentry kind="lib" path="OnlineRealStateECLIPS-main/libs/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="OnlineRealStateECLIPS-main/libs/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="OnlineRealStateECLIPS-main/libs/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="OnlineRealStateECLIPS-main/libs/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="OnlineRealStateECLIPS-main/libs/mysql-connector-java-5.1.40.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="OnlineRealStateECLIPS-main/build/classes"/>
+</classpath>
